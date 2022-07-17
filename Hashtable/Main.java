@@ -27,6 +27,16 @@ class Main{
          //Get value from hashtable using key
          System.out.println(ht1.get(3));
 
+
+
+         //Copy values form one hashtable to another
+         Hashtable<Integer,String>ht2 = new Hashtable<>();
+         ht2.putAll(ht1);
+         System.out.println("Copied hashtables is "+ht2);
+
+
+
+
          
 
 
